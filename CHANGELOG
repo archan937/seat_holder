@@ -1,0 +1,23 @@
+= SeatHolder CHANGELOG
+
+== Version 0.8.1 (May 28, 2010)
+
+* Improved copying hinted element attributes a lot
+
+== Version 0.8 (April 2, 2010)
+
+* Not using ID for matching hint and hinted elements anymore (yay!) Using jQuery.data() instead (woot!)
+
+== Version 0.7 (March 7, 2010)
+
+* Being able to show seatholders within textareas
+* Also cloning the 'cols' and 'rows' attributes
+
+== Version 0.6 (January 12, 2010)
+
+* Added SeatHolder.version
+* Adjusted jQuery inclusion (including ./jquery/core.js from now on)
+
+== Version 0.5 (May 15, 2009)
+
+* Including jquery.js automatically when missing (done like TopUp)

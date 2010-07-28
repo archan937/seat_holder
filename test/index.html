@@ -9,119 +9,105 @@
     <script src="../src/seat_holder.js" type="text/javascript"></script>
   </head>
   <body>
-    <form action="" method="get">
+    <h1>
+      SeatHolder - Test page
+      <span style="font-size: 14px">(extracted from <a href="http://gettopup.com/demo">http://gettopup.com/demo</a>)</span>
+    </h1>
+    <form action="">
       <fieldset class="margined">
-        <legend><span class="sprite specify_the_reference">Specify the reference</span></legend>
+        <legend>
+          <span class="sprite specify_the_reference">Specify the reference</span>
+        </legend>
         <ol>
           <li>
-            <label for="reference">Reference:</label> <input value="/images/photos/5.jpg" id="reference" name="reference" seatholder="&/images/photos/5.jpg" type="text">
+            <label for="reference">Reference:</label>
+            <input id="reference" name="reference" seatholder="&amp;/images/photos/5.jpg" type="text" />
           </li>
         </ol>
       </fieldset>
       <fieldset>
-        <legend><span class="sprite specify_the_toptions">Specify the toptions</span></legend>
+        <legend>
+          <span class="sprite specify_the_toptions">Specify the toptions</span>
+        </legend>
         <ol>
           <li>
-            <label for="toptions[topUp]">TopUp:</label> <input value="#link" id="toptions[topUp]" name="toptions[topUp]" seatholder="&#link" type="text">
+            <label for="toptions[topUp]">TopUp:</label>
+            <input id="toptions[topUp]" name="toptions[topUp]" seatholder="&amp;#link" type="text" />
           </li>
           <li>
-            <label for="toptions[type]">Type:</label> <select id="toptions[type]" name="toptions[type]">
-              <option selected="selected">
-                auto
-              </option>
-              <option value="image">
-                image
-              </option>
-              <option value="flash">
-                flash
-              </option>
-              <option value="flashvideo">
-                flashvideo
-              </option>
-              <option value="quicktime">
-                quicktime
-              </option>
-              <option value="realplayer">
-                realplayer
-              </option>
-              <option value="windowsmedia">
-                windowsmedia
-              </option>
-              <option value="iframe">
-                iframe
-              </option>
-              <option value="html">
-                html
-              </option>
-              <option value="dom">
-                dom
-              </option>
-              <option value="ajax">
-                ajax
-              </option>
-              <option value="script">
-                script
-              </option>
+            <label for="toptions[type]">Type:</label>
+            <select id="toptions[type]" name="toptions[type]"><option>auto</option><option value="image">image</option>
+              <option value="flash">flash</option>
+              <option value="flashvideo">flashvideo</option>
+              <option value="quicktime">quicktime</option>
+              <option value="realplayer">realplayer</option>
+              <option value="windowsmedia">windowsmedia</option>
+              <option value="iframe">iframe</option>
+              <option value="html">html</option>
+              <option value="dom">dom</option>
+              <option value="ajax">ajax</option>
+              <option value="script">script</option>
             </select>
           </li>
           <li>
-            <label for="toptions[post]">Post:</label> <input id="toptions[post]" name="toptions[post]" value="0" type="checkbox">
+            <label for="toptions[post]">Post:</label>
+            <input id="toptions[post]" name="toptions[post]" type="checkbox" value="0" />
           </li>
           <li>
-            <label for="toptions[parameters]">Parameters:</label> <input id="toptions[parameters]" name="toptions[parameters]" type="text">
+            <label for="toptions[parameters]">Parameters:</label>
+            <input id="toptions[parameters]" name="toptions[parameters]" type="text" />
           </li>
           <li>
-            <label for="toptions[title]">Title:</label> <input value="TopUp demo" id="toptions[title]" name="toptions[title]" seatholder="&TopUp demo" type="text">
+            <label for="toptions[title]">Title:</label>
+            <input id="toptions[title]" name="toptions[title]" seatholder="&amp;TopUp demo" type="text" />
           </li>
           <li>
-            <label for="toptions[layout]">Layout:</label> <select id="toptions[layout]" name="toptions[layout]">
-              <option selected="selected" value="dashboard">
-                dashboard
-              </option>
-              <option value="quicklook">
-                quicklook
-              </option>
-              <option value="flatlook">
-                flatlook
-              </option>
+            <label for="toptions[layout]">Layout:</label>
+            <select id="toptions[layout]" name="toptions[layout]">
+              <option value="dashboard">dashboard</option>
+              <option value="quicklook">quicklook</option>
+              <option value="flatlook">flatlook</option>
             </select>
           </li>
           <li>
-            <label for="toptions[width]">Width:</label> <input value="auto" size="4" class="sh_hint" hinted_element="toptions[width]" readonly="readonly" id="hint_element_0" type="text"><input class="sh_hide" hint_element="hint_element_0" id="toptions[width]" name="toptions[width]" seatholder="auto" size="4" type="text"> (in pixels)
+            <label for="toptions[width]">Width:</label>
+            <input id="toptions[width]" name="toptions[width]" seatholder="auto" size="4" type="text" /> (in pixels)
           </li>
           <li>
-            <label for="toptions[height]">Height:</label> <input value="auto" size="4" class="sh_hint" hinted_element="toptions[height]" readonly="readonly" id="hint_element_1" type="text"><input class="sh_hide" hint_element="hint_element_1" id="toptions[height]" name="toptions[height]" seatholder="auto" size="4" type="text"> (in pixels)
+            <label for="toptions[height]">Height:</label>
+            <input id="toptions[height]" name="toptions[height]" seatholder="auto" size="4" type="text" /> (in pixels)
           </li>
           <li>
-            <label for="toptions[x]">X:</label> <input value="auto" size="4" class="sh_hint" hinted_element="toptions[x]" readonly="readonly" id="hint_element_2" type="text"><input class="sh_hide" hint_element="hint_element_2" id="toptions[x]" name="toptions[x]" seatholder="auto" size="4" type="text"> (in pixels)
+            <label for="toptions[x]">X:</label>
+            <input id="toptions[x]" name="toptions[x]" seatholder="auto" size="4" type="text" /> (in pixels)
           </li>
           <li>
-            <label for="toptions[y]">Y:</label> <input value="auto" size="4" class="sh_hint" hinted_element="toptions[y]" readonly="readonly" id="hint_element_3" type="text"><input class="sh_hide" hint_element="hint_element_3" id="toptions[y]" name="toptions[y]" seatholder="auto" size="4" type="text"> (in pixels)
+            <label for="toptions[y]">Y:</label>
+            <input id="toptions[y]" name="toptions[y]" seatholder="auto" size="4" type="text" /> (in pixels)
           </li>
           <li>
-            <label for="toptions[effect]">Effect:</label> <select id="toptions[effect]" name="toptions[effect]">
-              <option selected="selected" value="transform">
-                transform
-              </option>
-              <option value="appear">
-                appear
-              </option>
-              <option value="switch">
-                switch
-              </option>
+            <label for="toptions[effect]">Effect:</label>
+            <select id="toptions[effect]" name="toptions[effect]">
+              <option value="transform">transform</option>
+              <option value="appear">appear</option>
+              <option value="switch">switch</option>
             </select>
           </li>
           <li>
-            <label for="toptions[modal]">Modal:</label> <input id="toptions[modal]" name="toptions[modal]" value="1" type="checkbox">
+            <label for="toptions[modal]">Modal:</label>
+            <input id="toptions[modal]" name="toptions[modal]" type="checkbox" value="1" />
           </li>
           <li>
-            <label for="toptions[shaded]">Shaded:</label> <input id="toptions[shaded]" name="toptions[shaded]" value="1" type="checkbox">
+            <label for="toptions[shaded]">Shaded:</label>
+            <input id="toptions[shaded]" name="toptions[shaded]" type="checkbox" value="1" />
           </li>
           <li>
-            <label for="toptions[overlayClose]">Overlay close:</label> <input id="toptions[overlayClose]" name="toptions[overlayClose]" value="1" type="checkbox">
+            <label for="toptions[overlayClose]">Overlay close:</label>
+            <input id="toptions[overlayClose]" name="toptions[overlayClose]" type="checkbox" value="1" />
           </li>
           <li>
-            <label for="toptions[resizable]">Resizable:</label> <input id="toptions[resizable]" name="toptions[resizable]" value="1" type="checkbox">
+            <label for="toptions[resizable]">Resizable:</label>
+            <input id="toptions[resizable]" name="toptions[resizable]" type="checkbox" value="1" />
           </li>
           <li>
             <label for="toptions[ondisplay]">On display:</label> 

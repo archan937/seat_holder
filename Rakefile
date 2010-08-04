@@ -2,7 +2,7 @@
 desc "Release a new SeatHolder version"
 task :release, :version do |task, args|
   if (args[:version] || "").strip.empty?
-    puts "usage: rake seat_holder:release[version]"
+    puts "usage: rake release[version]"
     exit
   end
   

@@ -1,5 +1,9 @@
 = SeatHolder CHANGELOG
 
+== Version 0.8.4 (August 4, 2010)
+
+* Also cloning the style attribute
+
 == Version 0.8.3 (August 2, 2010)
 
 * Corrected how to ignore file and submit inputs

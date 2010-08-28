@@ -39,6 +39,8 @@ a {
     border-bottom: 2px solid; }
   h1 a, h1 a:hover, h2 a, h2 a:hover, li a, li a:hover {
     border: 0; }
+  small a {
+    text-shadow: none; }
 
 form {
   margin-top: 40px;
@@ -51,8 +53,10 @@ form {
     font-weight: bold;
     clear: both; }
   form ol {
+    width: 300px;
     font-size: 14px; }
     form ol li {
+      padding-bottom: 2px;
       *display: inline-block; }
       form ol li:after {
         content: " ";
@@ -64,9 +68,14 @@ form {
         width: 100px;
         display: block;
         float: left; }
+      form ol li input {
+        line-height: 14px; }
       form ol li textarea {
+        width: 180px;
+        height: 45px;
         font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 11px; }
+        font-size: 11px;
+        overflow: none; }
 
 #page {
   min-height: 100%;
@@ -75,8 +84,8 @@ form {
 #page_wrapper {
   width: 920px;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 100px; }
+  padding-top: 25px;
+  padding-bottom: 50px; }
 
 #page_header {
   text-align: center; }
@@ -85,13 +94,15 @@ form {
     font-weight: bold;
     display: block; }
   #page_header h1 {
-    margin-top: 80px;
+    margin-top: 90px;
     font-size: 72px;
     letter-spacing: -4px;
     line-height: 1; }
   #page_header h2 {
-    margin-bottom: 70px;
     font-size: 20px; }
+  #page_header small.padded {
+    margin-top: 3px;
+    margin-bottom: 80px; }
 
 #page_content {
   text-align: center; }

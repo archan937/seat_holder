@@ -1,5 +1,10 @@
 = SeatHolder CHANGELOG
 
+== Version 0.8.6 (August 29, 2010)
+
+* Improved script src detection
+* Calling onSeatHolderReady if it exists when SeatHolder is loaded
+
 == Version 0.8.5 (August 18, 2010)
 
 * Fixed error in IE occured during determination of whether or not to ignore an input (file and submit)

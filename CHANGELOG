@@ -1,5 +1,9 @@
 = SeatHolder CHANGELOG
 
+== Version 0.8.7 (September 1, 2010)
+
+* Tweaked the auto-include of missing libraries
+
 == Version 0.8.6 (August 29, 2010)
 
 * Improved script src detection

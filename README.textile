@@ -69,7 +69,7 @@ As stated above, you can also specify default values for text inputs and textare
   </form>
 </pre>
 
-For a complete example, please open "http://github.com/archan937/seat_holder/blob/master/test/index.html":http://github.com/archan937/seat_holder/blob/master/test/index.html which is extracted from "http://gettopup.com/demo":http://gettopup.com/demo.
+For a complete live demo, please visit "http://codehero.es/demos/seat_holder":http://codehero.es/demos/seat_holder and "http://gettopup.com/demo":http://gettopup.com/demo.
 
 h2. Contact me
 

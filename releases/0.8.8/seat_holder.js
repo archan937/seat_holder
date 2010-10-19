@@ -1,16 +1,16 @@
 if (typeof(SeatHolder) == "undefined") {
 
 // *
-// * SeatHolder {version} (Uncompressed)
+// * SeatHolder 0.8.8 (Uncompressed)
 // * The modest Javascript placeholder (used in http://gettopup.com)
 // *
 // * This library requires jQuery (http://jquery.com)
 // *
-// * (c) {year} Paul Engel (Internetbureau Holder B.V.)
+// * (c) 2010 Paul Engel (Internetbureau Holder B.V.)
 // * Except otherwise noted, SeatHolder is licensed under
 // * http://creativecommons.org/licenses/by-sa/3.0
 // *
-// * $Date: {date} $
+// * $Date: 2010-10-19 23:23:28 +0100 (Tue, 19 October 2010) $
 // *
 
 SeatHolder = (function() {
@@ -150,7 +150,7 @@ SeatHolder = (function() {
   };
   
   return {
-    version: "{version}",
+    version: "0.8.8",
     selector: "[seatholder]",
     hintColor: "#AAA",
     init: function() {

@@ -1,5 +1,9 @@
 = SeatHolder CHANGELOG
 
+== Version 0.8.8 (October 19, 2010)
+
+* Being able to tell SeatHolder whether or not to react on focus events with SeatHolder.react(bool)
+
 == Version 0.8.7 (September 1, 2010)
 
 * Tweaked the auto-include of missing libraries

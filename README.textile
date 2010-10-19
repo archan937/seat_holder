@@ -71,6 +71,10 @@ As stated above, you can also specify default values for text inputs and textare
 
 For a complete live demo, please visit "http://codehero.es/demos/seat_holder":http://codehero.es/demos/seat_holder and "http://gettopup.com/demo":http://gettopup.com/demo.
 
+h3. SeatHolder.react()
+
+You can tell SeatHolder whether to react on focus events of hinted elements are not and it does at default of course. Just call @SeatHolder.react(bool)@ in which @bool@ can be left undefined (it will be assumed as @true@) or can be a boolean (SeatHolder will not react on focus events when @false@).
+
 h2. Contact me
 
 For support, remarks and requests please mail me at "paul.engel@holder.nl":mailto:paul.engel@holder.nl.
